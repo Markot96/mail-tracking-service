@@ -1,14 +1,17 @@
+import NovaPoshtaLogo from '../assets/novaposhta-logo.png';
+import UkrPoshtaLogo from '../assets/ukrposhta-logo.png';
+
 const postalServicesData = [
   {
     key: 1,
     name: 'Nova Poshta',
-    logo: '../assets/novaposhta-logo.png',
+    logo: NovaPoshtaLogo,
   },
   {
     key: 2,
     name: 'Ukrposhta',
-    logo: '../assets/novaposhta-logo.png',
-  }
+    logo: UkrPoshtaLogo,
+  },
 ];
 
 export default postalServicesData;

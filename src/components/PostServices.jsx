@@ -20,10 +20,9 @@ function PostServices() {
             <PostService
               key={postalService.id}
               name={postalService.name}
-              logo='../assets/novaposhta-logo.png'
+              logo={postalService.logo}
             />
           ))}
-          postal services that can be tracked
         </div>
       </div>
     </div>
