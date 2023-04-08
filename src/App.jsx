@@ -15,6 +15,8 @@ function App() {
     <div className='app'>
       <Header isGuest={isGuest}/>
         <button onClick={handleOnClick}>change state</button>
+        <div>track package field</div>
+        <div>postal services that can be tracken</div>
       <Footer />
     </div>
   );

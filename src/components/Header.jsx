@@ -5,36 +5,36 @@ import HeaderButton from './HeaderButton';
 
 
 function Header(props) {
-    
-    const AuthorizationButtons = (() => {
-        return (
-            <div className='authorization'>
-                <HeaderButton text='Login'/>
-                <HeaderButton text='Register'/>
-            </div>
-        );
-    });
 
-    const MyAccountButtons = (() => {
-        return (
-            <div className='my-account'>
-                <img src={profileIcon} className='profile-icon' alt='profile icon' />
-                <HeaderButton text='Log Out'/>
-            </div>
-        );
-    });
-
+  const AuthorizationButtons = (() => {
     return (
-        <div className='header'>
-            <div className='container'>
-                <div className='inner-header'>
-                    <img src={mainLogo} className='main-logo' alt='mainLogo' />
-                    <h1>Package Tracker</h1>
-                    {props.isGuest ? <AuthorizationButtons/> : <MyAccountButtons/> }
-                </div>
-            </div>
-        </div>
+      <div className='authorization'>
+        <HeaderButton text='Login' />
+        <HeaderButton text='Register' />
+      </div>
     );
+  });
+
+  const MyAccountButtons = (() => {
+    return (
+      <div className='my-account'>
+        <img src={profileIcon} className='profile-icon' alt='profile icon' />
+        <HeaderButton text='Log Out' />
+      </div>
+    );
+  });
+
+  return (
+    <div className='header'>
+      <div className='container'>
+        <div className='inner-header'>
+          <img src={mainLogo} className='main-logo' alt='mainLogo' />
+          <h1>Package Tracker</h1>
+          {props.isGuest ? <AuthorizationButtons /> : <MyAccountButtons />}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Header;
