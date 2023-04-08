@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer';
 import { useState } from 'react';
+import NumberInput from './components/NumberInput';
 
 function App() {
 
@@ -13,10 +14,11 @@ function App() {
 
   return (
     <div className='app'>
-      <Header isGuest={isGuest}/>
-        <button onClick={handleOnClick}>change state</button>
-        <div>track package field</div>
-        <div>postal services that can be tracken</div>
+      <Header isGuest={isGuest} />
+      <NumberInput />
+      <button onClick={handleOnClick}>change state</button>
+      <div>track package field</div>
+      <div>postal services that can be tracken</div>
       <Footer />
     </div>
   );
