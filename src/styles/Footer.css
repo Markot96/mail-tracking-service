@@ -5,3 +5,11 @@
     position: fixed;
     background-color: rgb(211, 192, 205);
 }
+
+.inner-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
