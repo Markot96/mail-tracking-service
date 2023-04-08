@@ -1,4 +1,18 @@
 .header {
-    height: 200px;
+    width: 100%;
+    height: 150px;
     background-color: rgb(211, 192, 205);
+}
+
+.inner-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-logo {
+    width: 90px;
+    height: 90px;
 }
