@@ -1,9 +1,9 @@
 import '../styles/HeaderButton.css';
 
-function HeaderButton() {
+function HeaderButton(props) {
     return (
         <div className="header-button">
-            
+            {props.text}
         </div>
     );
 }

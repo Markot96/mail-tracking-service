@@ -1,24 +1,25 @@
 import '../styles/Header.css';
 import mainLogo from '../assets/package-tracker-main-logo.png'
 import profileIcon from '../assets/profile-icon.png'
+import HeaderButton from './HeaderButton';
 
 
 function Header(props) {
     
-    const Authorization = (() => {
+    const AuthorizationButtons = (() => {
         return (
             <div className="authorization">
-                <p>Login</p>
-                <p>Register</p>
+                    <HeaderButton text="Login"/>
+                    <HeaderButton text="Register"/>
             </div>
         );
     });
 
-    const MyAccount = (() => {
+    const MyAccountButtons = (() => {
         return (
             <div className="authorization">
                 <img src={profileIcon} className="profile-icon" alt="profile icon" />
-                <p>Log out</p>
+                <HeaderButton text="Log Out"/>
             </div>
         );
     });
@@ -29,7 +30,7 @@ function Header(props) {
                 <div className="inner-header">
                     <img src={mainLogo} className="main-logo" alt="mainLogo" />
                     Header Text
-                    {props.isGuest ? <Authorization/> : <MyAccount/> }
+                    {props.isGuest ? <AuthorizationButtons/> : <MyAccountButtons/> }
                 </div>
             </div>
         </div>
