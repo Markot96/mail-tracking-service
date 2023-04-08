@@ -17,7 +17,6 @@ function App() {
       <Header isGuest={isGuest} />
       <NumberInput />
       <button onClick={handleOnClick}>change state</button>
-      <div>track package field</div>
       <div>postal services that can be tracken</div>
       <Footer />
     </div>

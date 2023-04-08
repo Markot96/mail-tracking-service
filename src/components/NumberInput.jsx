@@ -10,7 +10,7 @@ function NumberInput() {
           <input type='text' name='name' className='text-input' />
           <div className='submit-button'>
             <img src={SearchIcon} className='search-icon' alt='search icon' />
-            Пошук
+            <p className='search-button'>Пошук</p>
           </div>
         </div>
       </div>

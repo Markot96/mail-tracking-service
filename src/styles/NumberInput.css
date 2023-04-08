@@ -23,10 +23,10 @@
   width: 10em;
   border: 2px solid black;
   --height: 2.5em;
-  border-radius: calc(var(--height)/2);
+  border-radius: calc(var(--height)/3);
   font-size: large;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   text-align: center;
   transition: 0.3s;
@@ -34,14 +34,19 @@
 }
 
 .submit-button:hover {
-  background-color: rgb(179, 148, 169);
+  background-color: rgb(167, 153, 255);
 }
 
 .submit-button:active {
-  background-color: rgb(230, 219, 227);
+  background-color: rgb(184, 173, 255);
 }
 
 .search-icon {
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
+  margin: 0 15px 0 15px;
+}
+
+.search-button {
+  font-size: 23px;
 }
