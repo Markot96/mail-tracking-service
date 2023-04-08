@@ -7,7 +7,7 @@
 
 /* style for width of all child components */
 .container {
-  max-width: 70%;
+  max-width: 60%;
   height: 100%;
   margin: 0 auto;
   display: flex;
