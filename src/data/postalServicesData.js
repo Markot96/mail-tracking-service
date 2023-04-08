@@ -12,6 +12,26 @@ const postalServicesData = [
     name: 'Ukrposhta',
     logo: UkrPoshtaLogo,
   },
+  {
+    key: 3,
+    name: 'Nova Poshta',
+    logo: NovaPoshtaLogo,
+  },
+  {
+    key: 4,
+    name: 'Ukrposhta',
+    logo: UkrPoshtaLogo,
+  },
+  {
+    key: 5,
+    name: 'Nova Poshta',
+    logo: NovaPoshtaLogo,
+  },
+  {
+    key: 6,
+    name: 'Ukrposhta',
+    logo: UkrPoshtaLogo,
+  },
 ];
 
 export default postalServicesData;

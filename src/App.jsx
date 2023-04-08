@@ -16,7 +16,9 @@ function App() {
   return (
     <div className='app'>
       <Header isGuest={isGuest} />
-      <button onClick={handleOnClick}>change state</button>
+      <div>
+        <button onClick={handleOnClick}>change state</button>
+      </div>
       <NumberInput />
       <PostServices />
       <Footer />

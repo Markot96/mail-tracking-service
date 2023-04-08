@@ -1,8 +1,10 @@
 .app {
+  height: 100vh;
   text-align: center;
   background-color: rgb(227, 223, 255);
-
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* style for width of all child components */
