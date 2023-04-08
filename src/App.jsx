@@ -12,7 +12,7 @@ function App() {
   });
 
   return (
-    <div className="app">
+    <div className='app'>
       <Header isGuest={isGuest}/>
         <button onClick={handleOnClick}>change state</button>
       <Footer />
