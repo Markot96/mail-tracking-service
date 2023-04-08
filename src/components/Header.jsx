@@ -9,15 +9,15 @@ function Header(props) {
     const AuthorizationButtons = (() => {
         return (
             <div className='authorization'>
-                    <HeaderButton text='Login'/>
-                    <HeaderButton text='Register'/>
+                <HeaderButton text='Login'/>
+                <HeaderButton text='Register'/>
             </div>
         );
     });
 
     const MyAccountButtons = (() => {
         return (
-            <div className='authorization'>
+            <div className='my-account'>
                 <img src={profileIcon} className='profile-icon' alt='profile icon' />
                 <HeaderButton text='Log Out'/>
             </div>
@@ -29,7 +29,7 @@ function Header(props) {
             <div className='container'>
                 <div className='inner-header'>
                     <img src={mainLogo} className='main-logo' alt='mainLogo' />
-                    Header Text
+                    <h1>Package Tracker</h1>
                     {props.isGuest ? <AuthorizationButtons/> : <MyAccountButtons/> }
                 </div>
             </div>
