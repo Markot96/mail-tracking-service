@@ -1,14 +1,22 @@
 .header-button {
-    /* width: calc(100% + 10px); */
-    /* height: calc(100% + 50px); */
     height: 2.5em;
-    width:6em;
-    background-color: rgb(227, 223, 255);
-    /* color: */
+    width: 6em;
     border: 2px solid black;
-    border-radius: 10px;
+    --height: 2.5em;
+    border-radius: calc(var(--height)/2);
+    font-size: large;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: rgb(179, 148, 169);
+}
+
+.header-button:active {
+    background-color: rgb(230, 219, 227);
 }
