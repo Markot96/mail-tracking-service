@@ -1,23 +1,16 @@
 import './App.css';
 import Header from './components/Header'
-import Footer from './components/Footer';
-import { useState } from 'react';
 import Main from './components/Main';
+import Footer from './components/Footer';
+
 
 function App() {
 
-  const [isGuest, setIsGuest] = useState();
 
-  const handleOnClick = (() => {
-    setIsGuest(!isGuest);
-  });
 
   return (
     <div className='app'>
-      <Header isGuest={isGuest} />
-      {/* <div>
-        <button onClick={handleOnClick}>change state</button>
-      </div> */}
+      <Header />
       <Main />
       <Footer />
     </div>

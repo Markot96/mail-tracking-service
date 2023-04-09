@@ -1,10 +1,17 @@
+import { useState } from 'react';
 import '../styles/Header.css';
 import mainLogo from '../assets/package-tracker-main-logo.png'
 import profileIcon from '../assets/profile-icon.png'
 import HeaderButton from './HeaderButton';
 
 
-function Header(props) {
+
+function Header() {
+
+  const [isGuest, setIsGuest] = useState(true);
+  // const handleOnClick = (() => {
+  //   setIsGuest(!isGuest);
+  // });
 
   const AuthorizationButtons = (() => {
     return (
