@@ -2,8 +2,7 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer';
 import { useState } from 'react';
-import NumberInput from './components/NumberInput';
-import PostServices from './components/PostServices';
+import Main from './components/Main';
 
 function App() {
 
@@ -16,11 +15,10 @@ function App() {
   return (
     <div className='app'>
       <Header isGuest={isGuest} />
-      <div>
+      {/* <div>
         <button onClick={handleOnClick}>change state</button>
-      </div>
-      <NumberInput />
-      <PostServices />
+      </div> */}
+      <Main />
       <Footer />
     </div>
   );
