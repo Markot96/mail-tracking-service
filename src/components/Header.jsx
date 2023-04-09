@@ -37,7 +37,7 @@ function Header() {
         <div className='inner-header'>
           <img src={mainLogo} className='main-logo' alt='mainLogo' />
           <h1>Package Tracker</h1>
-          {props.isGuest ? <AuthorizationButtons /> : <MyAccountButtons />}
+          {isGuest ? <AuthorizationButtons /> : <MyAccountButtons />}
         </div>
       </div>
     </div>
