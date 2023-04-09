@@ -9,15 +9,20 @@ import HeaderButton from './HeaderButton';
 function Header() {
 
   const [isGuest, setIsGuest] = useState(true);
-  // const handleOnClick = (() => {
-  //   setIsGuest(!isGuest);
-  // });
+
+  const handleOnClickLogin = (() => {
+    setIsGuest(!isGuest);
+  });
+
+  const handleOnClickRegister = (() => {
+    setIsGuest(!isGuest);
+  });
 
   const AuthorizationButtons = (() => {
     return (
       <div className='authorization'>
-        <HeaderButton text='Login' />
-        <HeaderButton text='Register' />
+        <HeaderButton onClick={handleOnClickLogin} text='Увійти' />
+        <HeaderButton onClick={handleOnClickRegister} text='Зареєструватись' />
       </div>
     );
   });

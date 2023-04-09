@@ -23,8 +23,9 @@
 }
 
 .authorization {
-    width: 250px;
+    width: 30%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
