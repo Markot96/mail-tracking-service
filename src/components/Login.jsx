@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import '../styles/Login.css';
 import HeaderButton from './HeaderButton';
 
@@ -10,6 +11,9 @@ function Login() {
           <input type='text' name='login' className='text-input' />
           <input type='text' name='password' className='text-input' />
           <HeaderButton text='Увійти' />
+          <NavLink exact to="/">
+            <HeaderButton text='Назад' />
+          </NavLink>
         </div>
       </div>
     </div>

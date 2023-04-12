@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import '../styles/AuthorizationButtons.css';
 import HeaderButton from './HeaderButton';
+
 
 function AuthorizationButtons(props) {
 
@@ -17,7 +19,9 @@ function AuthorizationButtons(props) {
 
   return (
     <div className='authorization'>
-      <HeaderButton onClick={handleOnClickLogin} text='Увійти' />
+      <NavLink exact to="/login">
+        <HeaderButton onClick={handleOnClickLogin} text='Увійти' />
+      </NavLink>
       <HeaderButton onClick={handleOnClickRegister} text='Зареєструватись' />
     </div>
   );
