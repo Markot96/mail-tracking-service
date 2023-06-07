@@ -24,6 +24,8 @@ function Results() {
     <div className='results'>
       <div className='container'>
         <div className='inner-results'>
+          <p>Статус: </p>
+          <p>Час прибуття: </p>
           {data && data.map((userData) => {
             console.log('userData.email', userData.email)
             return <div>{userData.email}123</div>
