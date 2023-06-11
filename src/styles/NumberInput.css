@@ -18,3 +18,8 @@
   background: #fff;
   border: 1px solid black;
 }
+
+.package-data-container {
+  margin: 50px 300px 0 0;
+  text-align: start;
+}

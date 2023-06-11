@@ -37,19 +37,18 @@ function NumberInput() {
           />
           <SubmitButton onClick={handleClick} />
           {packageInfo ? (
-            <div>
-              <h2>Package Information:</h2>
-              <p>Package Number: {packageInfo.package_number}</p>
-              <p>Date and Time of Sending: {packageInfo.date_time_sending}</p>
-              <p>City of Departure: {packageInfo.departure_city}</p>
-              <p>City of Arrival: {packageInfo.arrival_city}</p>
-              <p>Category: {packageInfo.category}</p>
-              <p>Status: {packageInfo.status}</p>
-              <p>Sender Name: {packageInfo.sender_name}</p>
-              <p>Receiver Name: {packageInfo.receiver_name}</p>
-              <p>Post Office Address: {packageInfo.post_office_address}</p>
-              <p>Post Office Number: {packageInfo.post_office_number}</p>
-              <p>Arrival Date: {packageInfo.arrival_date}</p>
+            <div className='package-data-container'>
+              <h2>Інформація про посилку:</h2>
+              <p>Номер посилки: {packageInfo.package_number}</p>
+              <p>Час відправлення: {packageInfo.date_time_sending}</p>
+              <p>Місто відправлення: {packageInfo.departure_city}</p>
+              <p>Місто прибуття: {packageInfo.arrival_city}</p>
+              <p>Категорія: {packageInfo.category}</p>
+              <p>Статус: {packageInfo.status}</p>
+              <p>Ім'я відправника: {packageInfo.sender_name}</p>
+              <p>Ім'я отримувача: {packageInfo.receiver_name}</p>
+              <p>Поштове відділення №{packageInfo.post_office_number}, {packageInfo.post_office_address}</p>
+              <p>Дата прибуття: {packageInfo.arrival_date}</p>
             </div>
           ) : !isFirstTimeSearch && (
             <p>No package information found.</p>
