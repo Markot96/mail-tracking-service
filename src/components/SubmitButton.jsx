@@ -1,18 +1,13 @@
-import { NavLink } from 'react-router-dom';
-import '../styles/AuthorizationButtons.css';
-import HeaderButton from './HeaderButton';
+import '../styles/SubmitButton.css';
+import SearchIcon from '../assets/search-icon.png'
 
 
 function SubmitButton(props) {
 
-
-
   return (
-    <div className='authorization'>
-      {/* <NavLink exact to="/login">
-        <HeaderButton onClick={onClick} text='Увійти' />
-      </NavLink>
-      <HeaderButton onClick={onClick} text='Зареєструватись' /> */}
+    <div className='submit-button'>
+      <img src={SearchIcon} className='search-icon' alt='search icon' />
+      <p className='search-button'>Пошук</p>
     </div>
   );
 };
