@@ -3,32 +3,32 @@ import UkrPoshtaLogo from '../assets/ukrposhta-logo.png';
 
 const postalServicesData = [
   {
-    key: 1,
+    id: 0,
     name: 'Nova Poshta',
     logo: NovaPoshtaLogo,
   },
   {
-    key: 2,
+    id: 1,
     name: 'Ukrposhta',
     logo: UkrPoshtaLogo,
   },
   {
-    key: 3,
+    id: 2,
     name: 'Nova Poshta',
     logo: NovaPoshtaLogo,
   },
   {
-    key: 4,
+    id: 3,
     name: 'Ukrposhta',
     logo: UkrPoshtaLogo,
   },
   {
-    key: 5,
+    id: 4,
     name: 'Nova Poshta',
     logo: NovaPoshtaLogo,
   },
   {
-    key: 6,
+    id: 5,
     name: 'Ukrposhta',
     logo: UkrPoshtaLogo,
   },
