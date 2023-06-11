@@ -5,8 +5,6 @@ import profileIcon from '../assets/profile-icon.png'
 import HeaderButton from './HeaderButton';
 import AuthorizationButtons from './AuthorizationButtons';
 
-
-
 function Header() {
 
   const [isGuest, setIsGuest] = useState(true);

@@ -1,7 +1,6 @@
 import '../styles/SubmitButton.css';
 import SearchIcon from '../assets/search-icon.png'
 
-
 function SubmitButton(props) {
 
   return (
