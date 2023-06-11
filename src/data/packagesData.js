@@ -2,7 +2,7 @@ const packagesData = {
   "items": [
     {
       "package_number": "80973256",
-      "date_time_sending": "2023-06-01T10:00:00",
+      "date_time_sending": "2023-06-01 10:00:00",
       "departure_city": "Київ",
       "arrival_city": "Харків",
       "category": "Електроніка",
@@ -15,7 +15,7 @@ const packagesData = {
     },
     {
       "package_number": "61784520",
-      "date_time_sending": "2023-06-02T12:30:00",
+      "date_time_sending": "2023-06-02 12:30:00",
       "departure_city": "Львів",
       "arrival_city": "Одеса",
       "category": "Одяг",
@@ -28,7 +28,7 @@ const packagesData = {
     },
     {
       "package_number": "39215764",
-      "date_time_sending": "2023-06-03T15:45:00",
+      "date_time_sending": "2023-06-03 15:45:00",
       "departure_city": "Дніпро",
       "arrival_city": "Запоріжжя",
       "category": "Книги",
@@ -41,7 +41,7 @@ const packagesData = {
     },
     {
       "package_number": "48590321",
-      "date_time_sending": "2023-06-04T09:20:00",
+      "date_time_sending": "2023-06-04 09:20:00",
       "departure_city": "Вінниця",
       "arrival_city": "Рівне",
       "category": "Ювелірні вироби",
@@ -54,7 +54,7 @@ const packagesData = {
     },
     {
       "package_number": "72641890",
-      "date_time_sending": "2023-06-05T16:10:00",
+      "date_time_sending": "2023-06-05 16:10:00",
       "departure_city": "Чернігів",
       "arrival_city": "Черкаси",
       "category": "Іграшки",
@@ -67,7 +67,7 @@ const packagesData = {
     },
     {
       "package_number": "54321987",
-      "date_time_sending": "2023-06-06T11:30:00",
+      "date_time_sending": "2023-06-06 11:30:00",
       "departure_city": "Івано-Франківськ",
       "arrival_city": "Ужгород",
       "category": "Їжа",
@@ -80,7 +80,7 @@ const packagesData = {
     },
     {
       "package_number": "68904123",
-      "date_time_sending": "2023-06-07T14:50:00",
+      "date_time_sending": "2023-06-07 14:50:00",
       "departure_city": "Тернопіль",
       "arrival_city": "Хмельницький",
       "category": "Спортивне обладнання",
@@ -93,7 +93,7 @@ const packagesData = {
     },
     {
       "package_number": "23659748",
-      "date_time_sending": "2023-06-08T08:00:00",
+      "date_time_sending": "2023-06-08 08:00:00",
       "departure_city": "Суми",
       "arrival_city": "Кропивницький",
       "category": "Beauty Products",
@@ -106,7 +106,7 @@ const packagesData = {
     },
     {
       "package_number": "87420365",
-      "date_time_sending": "2023-06-09T13:15:00",
+      "date_time_sending": "2023-06-09 13:15:00",
       "departure_city": "Житомир",
       "arrival_city": "Полтава",
       "category": "Побутова техніка",
@@ -119,7 +119,7 @@ const packagesData = {
     },
     {
       "package_number": "95182743",
-      "date_time_sending": "2023-06-10T10:30:00",
+      "date_time_sending": "2023-06-10 10:30:00",
       "departure_city": "Дрогобич",
       "arrival_city": "Кременчук",
       "category": "Електроніка",
