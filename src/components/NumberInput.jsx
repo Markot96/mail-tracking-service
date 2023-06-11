@@ -7,23 +7,22 @@ function NumberInput() {
 
   const [packageNumber, setPackageNumber] = useState('');
   const [packageInfo, setPackageInfo] = useState(undefined);
+  const [isFirstTimeSearch, setIsFirstTimeSearch] = useState(true);
 
   const handleInputChange = (event) => {
     setPackageNumber(event.target.value);
   };
 
   const handleClick = (event) => {
+    setIsFirstTimeSearch(false);
     event.preventDefault();
 
     const foundPackage = packagesData.items.find(
       (item) => item.package_number === packageNumber
     );
-    console.log('foundPackage', foundPackage)
 
     setPackageInfo(foundPackage);
-    setPackageNumber('');
   };
-  console.log(packageInfo)
 
   return (
     <div className='number-input'>
@@ -33,6 +32,7 @@ function NumberInput() {
             type='text'
             name='name'
             className='text-input'
+            value={packageNumber}
             onChange={handleInputChange}
           />
           <SubmitButton onClick={handleClick} />
@@ -51,11 +51,10 @@ function NumberInput() {
               <p>Post Office Number: {packageInfo.post_office_number}</p>
               <p>Arrival Date: {packageInfo.arrival_date}</p>
             </div>
-          ) : (
+          ) : !isFirstTimeSearch && (
             <p>No package information found.</p>
           )}
         </div>
-
       </div>
     </div>
   );

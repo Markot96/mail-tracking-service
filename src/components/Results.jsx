@@ -9,7 +9,7 @@ function Results() {
     // fetch('https://api.novaposhta.ua/v2.0/json/')
     fetch('https://reqres.in/api/users')
       .then((response) => {
-        console.log('response', response)
+        // console.log('response', response)
         if (response.ok) {
           return response;
         }
@@ -18,7 +18,7 @@ function Results() {
       .then((response) => setData(response.data))
       .catch((err) => console.log(err));
   }, []);
-  console.log('data', data)
+  // console.log('data', data)
 
   return (
     <div className='results'>
