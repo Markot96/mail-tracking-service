@@ -3,7 +3,7 @@ import { useState } from 'react';
 import postalServicesData from '../data/postalServicesData';
 
 function PostServices() {
-  const [selectedService, setSelectedService] = useState(null);
+  const [selectedService, setSelectedService] = useState(0);
 
   const handleServiceClick = (serviceId) => {
     setSelectedService(serviceId);
