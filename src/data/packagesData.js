@@ -12,7 +12,7 @@ const packagesData = {
       "post_office_address": "Вулиця Шевченка, 10",
       "post_office_number": "45",
       "arrival_date": "2023-06-05",
-      "isUrgent": "Так"
+      "is_urgent": "Так"
     },
     {
       "package_number": "61784520",
@@ -26,7 +26,7 @@ const packagesData = {
       "post_office_address": "Вулиця Соборна, 25",
       "post_office_number": "16",
       "arrival_date": "2023-06-04",
-      "isUrgent": "Ні"
+      "is_urgent": "Ні"
     },
     {
       "package_number": "39215764",
@@ -40,7 +40,7 @@ const packagesData = {
       "post_office_address": "Вулиця Грушевського, 5",
       "post_office_number": "12",
       "arrival_date": "2023-06-09",
-      "isUrgent": "Так"
+      "is_urgent": "Так"
     },
     {
       "package_number": "48590321",
@@ -54,7 +54,7 @@ const packagesData = {
       "post_office_address": "Вулиця Степана Бандери, 12",
       "post_office_number": "29",
       "arrival_date": "2023-06-07",
-      "isUrgent": "Так"
+      "is_urgent": "Так"
     },
     {
       "package_number": "72641890",
@@ -68,7 +68,7 @@ const packagesData = {
       "post_office_address": "Вулиця Коцюбинського, 3",
       "post_office_number": "27",
       "arrival_date": "2023-06-10",
-      "isUrgent": "Ні"
+      "is_urgent": "Ні"
     },
     {
       "package_number": "54321987",
@@ -82,7 +82,7 @@ const packagesData = {
       "post_office_address": "Вулиця Сумська, 8",
       "post_office_number": "44",
       "arrival_date": "2023-06-12",
-      "isUrgent": "Так"
+      "is_urgent": "Так"
     },
     {
       "package_number": "68904123",
@@ -96,7 +96,7 @@ const packagesData = {
       "post_office_address": "Вулиця Проскурівська, 30",
       "post_office_number": "3",
       "arrival_date": "2023-06-09",
-      "isUrgent": "Ні"
+      "is_urgent": "Ні"
     },
     {
       "package_number": "23659748",
@@ -110,7 +110,7 @@ const packagesData = {
       "post_office_address": "Вулиця Лесі Українки, 5",
       "post_office_number": "12",
       "arrival_date": "2023-06-11",
-      "isUrgent": "Ні"
+      "is_urgent": "Ні"
     },
     {
       "package_number": "87420365",
@@ -124,7 +124,7 @@ const packagesData = {
       "post_office_address": "Вулиця Козацька, 12",
       "post_office_number": "45",
       "arrival_date": "2023-06-14",
-      "isUrgent": "Так"
+      "is_urgent": "Так"
     },
     {
       "package_number": "95182743",
@@ -138,7 +138,7 @@ const packagesData = {
       "post_office_address": "Вулиця Дніпровська, 31",
       "post_office_number": "11",
       "arrival_date": "2023-06-16",
-      "isUrgent": "Ні"
+      "is_urgent": "Ні"
     }
   ]
 }

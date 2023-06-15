@@ -49,6 +49,7 @@ function NumberInput() {
               <p>Ім'я отримувача: {packageInfo.receiver_name}</p>
               <p>Поштове відділення №{packageInfo.post_office_number}, {packageInfo.post_office_address}</p>
               <p>Дата прибуття: {packageInfo.arrival_date}</p>
+              <p>Терміновість: {packageInfo.is_urgent}</p>
             </div>
           ) : !isFirstTimeSearch && (
             <p className='package-not-found'>Не знайдено інформації щодо даної посилки. Перевірте код відправлення.</p>
