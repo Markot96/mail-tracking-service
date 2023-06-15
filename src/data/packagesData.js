@@ -11,7 +11,8 @@ const packagesData = {
       "receiver_name": "Ірина Ковальчук",
       "post_office_address": "Вулиця Шевченка, 10",
       "post_office_number": "45",
-      "arrival_date": "2023-06-05"
+      "arrival_date": "2023-06-05",
+      "isUrgent": "Так"
     },
     {
       "package_number": "61784520",
@@ -24,7 +25,8 @@ const packagesData = {
       "receiver_name": "Олена Сидоренко",
       "post_office_address": "Вулиця Соборна, 25",
       "post_office_number": "16",
-      "arrival_date": "2023-06-04"
+      "arrival_date": "2023-06-04",
+      "isUrgent": "Ні"
     },
     {
       "package_number": "39215764",
@@ -37,7 +39,8 @@ const packagesData = {
       "receiver_name": "Наталія Шевченко",
       "post_office_address": "Вулиця Грушевського, 5",
       "post_office_number": "12",
-      "arrival_date": "2023-06-09"
+      "arrival_date": "2023-06-09",
+      "isUrgent": "Так"
     },
     {
       "package_number": "48590321",
@@ -50,7 +53,8 @@ const packagesData = {
       "receiver_name": "Тетяна Левченко",
       "post_office_address": "Вулиця Степана Бандери, 12",
       "post_office_number": "29",
-      "arrival_date": "2023-06-07"
+      "arrival_date": "2023-06-07",
+      "isUrgent": "Так"
     },
     {
       "package_number": "72641890",
@@ -63,7 +67,8 @@ const packagesData = {
       "receiver_name": "Марія Павленко",
       "post_office_address": "Вулиця Коцюбинського, 3",
       "post_office_number": "27",
-      "arrival_date": "2023-06-10"
+      "arrival_date": "2023-06-10",
+      "isUrgent": "Ні"
     },
     {
       "package_number": "54321987",
@@ -76,7 +81,8 @@ const packagesData = {
       "receiver_name": "Оксана Мельник",
       "post_office_address": "Вулиця Сумська, 8",
       "post_office_number": "44",
-      "arrival_date": "2023-06-12"
+      "arrival_date": "2023-06-12",
+      "isUrgent": "Так"
     },
     {
       "package_number": "68904123",
@@ -89,7 +95,8 @@ const packagesData = {
       "receiver_name": "Юрій Іваненко",
       "post_office_address": "Вулиця Проскурівська, 30",
       "post_office_number": "3",
-      "arrival_date": "2023-06-09"
+      "arrival_date": "2023-06-09",
+      "isUrgent": "Ні"
     },
     {
       "package_number": "23659748",
@@ -102,7 +109,8 @@ const packagesData = {
       "receiver_name": "Дмитро Бойко",
       "post_office_address": "Вулиця Лесі Українки, 5",
       "post_office_number": "12",
-      "arrival_date": "2023-06-11"
+      "arrival_date": "2023-06-11",
+      "isUrgent": "Ні"
     },
     {
       "package_number": "87420365",
@@ -115,7 +123,8 @@ const packagesData = {
       "receiver_name": "Василь Федоренко",
       "post_office_address": "Вулиця Козацька, 12",
       "post_office_number": "45",
-      "arrival_date": "2023-06-14"
+      "arrival_date": "2023-06-14",
+      "isUrgent": "Так"
     },
     {
       "package_number": "95182743",
@@ -128,7 +137,8 @@ const packagesData = {
       "receiver_name": "Павло Луценко",
       "post_office_address": "Вулиця Дніпровська, 31",
       "post_office_number": "11",
-      "arrival_date": "2023-06-16"
+      "arrival_date": "2023-06-16",
+      "isUrgent": "Ні"
     }
   ]
 }
