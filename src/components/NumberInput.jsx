@@ -51,7 +51,7 @@ function NumberInput() {
               <p>Дата прибуття: {packageInfo.arrival_date}</p>
             </div>
           ) : !isFirstTimeSearch && (
-            <p>No package information found.</p>
+            <p className='package-not-found'>Не знайдено інформації щодо даної посилки. Перевірте код відправлення.</p>
           )}
         </div>
       </div>
