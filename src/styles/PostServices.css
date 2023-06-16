@@ -10,10 +10,33 @@
   background-color: white;
 }
 
+.post-service-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: none;
+  font-size: 13px;
+}
+
+.post-service.selected .info {
+  display: block;
+}
+
+.post-service-info {
+  margin-top: 10px;
+}
+
+.info-header {
+  font-weight: 700;
+}
+
 .selected {
   background-color: rgb(255, 236, 81);
   border: 5px solid black;
   border-radius: 20px;
+  height: 250px;
 }
 
 .post-logo {

@@ -18,7 +18,20 @@ function PostServices() {
         onClick={() => handleServiceClick(props.id)}
       >
         <img src={props.logo} className='post-logo' alt='' />
-        <p>{props.name}</p>
+        <div className='post-service-details'>
+          <p>{props.name}</p>
+          <div className='post-service-info'>
+            <p className="info-header info">Відправлення:</p>
+            {props.isInternational && <p className="info">Міжнародні</p>}
+            <p className="info">В межах країни</p>
+            {props.isUrgent && <p className="info">Термінові</p>}
+            <p className="info">Нетермінові</p>
+          </div>
+          <div className='post-service-info'>
+            <p className="info-header info">Термін доставки:</p>
+            <p className="info">{props.deliveryTime}</p>
+          </div>
+        </div>
       </div>
     );
   };
@@ -33,6 +46,9 @@ function PostServices() {
               id={postalService.id}
               name={postalService.name}
               logo={postalService.logo}
+              isInternational={postalService.isInternational}
+              isUrgent={postalService.isUrgent}
+              deliveryTime={postalService.deliveryTime}
             />
           ))}
         </div>
