@@ -11,7 +11,7 @@ const packagesData = {
       "receiver_name": "Ірина Ковальчук",
       "post_office_address": "Вулиця Шевченка, 10",
       "post_office_number": "45",
-      "arrival_date": "2023-06-05",
+      "arrival_date": "2023-06-05 12:00:00",
       "is_urgent": "Так"
     },
     {
@@ -25,7 +25,7 @@ const packagesData = {
       "receiver_name": "Олена Сидоренко",
       "post_office_address": "Вулиця Соборна, 25",
       "post_office_number": "16",
-      "arrival_date": "2023-06-04",
+      "arrival_date": "2023-06-04 12:00:00",
       "is_urgent": "Ні"
     },
     {
@@ -39,7 +39,7 @@ const packagesData = {
       "receiver_name": "Наталія Шевченко",
       "post_office_address": "Вулиця Грушевського, 5",
       "post_office_number": "12",
-      "arrival_date": "2023-06-09",
+      "arrival_date": "2023-06-09 12:00:00",
       "is_urgent": "Так"
     },
     {
@@ -53,7 +53,7 @@ const packagesData = {
       "receiver_name": "Тетяна Левченко",
       "post_office_address": "Вулиця Степана Бандери, 12",
       "post_office_number": "29",
-      "arrival_date": "2023-06-07",
+      "arrival_date": "2023-06-07 12:00:00",
       "is_urgent": "Так"
     },
     {
@@ -67,7 +67,7 @@ const packagesData = {
       "receiver_name": "Марія Павленко",
       "post_office_address": "Вулиця Коцюбинського, 3",
       "post_office_number": "27",
-      "arrival_date": "2023-06-10",
+      "arrival_date": "2023-06-10 12:00:00",
       "is_urgent": "Ні"
     },
     {
@@ -81,7 +81,7 @@ const packagesData = {
       "receiver_name": "Оксана Мельник",
       "post_office_address": "Вулиця Сумська, 8",
       "post_office_number": "44",
-      "arrival_date": "2023-06-12",
+      "arrival_date": "2023-06-12 12:00:00",
       "is_urgent": "Так"
     },
     {
@@ -95,7 +95,7 @@ const packagesData = {
       "receiver_name": "Юрій Іваненко",
       "post_office_address": "Вулиця Проскурівська, 30",
       "post_office_number": "3",
-      "arrival_date": "2023-06-09",
+      "arrival_date": "2023-06-09 12:00:00",
       "is_urgent": "Ні"
     },
     {
@@ -109,7 +109,7 @@ const packagesData = {
       "receiver_name": "Дмитро Бойко",
       "post_office_address": "Вулиця Лесі Українки, 5",
       "post_office_number": "12",
-      "arrival_date": "2023-06-11",
+      "arrival_date": "2023-06-11 12:00:00",
       "is_urgent": "Ні"
     },
     {
@@ -123,7 +123,7 @@ const packagesData = {
       "receiver_name": "Василь Федоренко",
       "post_office_address": "Вулиця Козацька, 12",
       "post_office_number": "45",
-      "arrival_date": "2023-06-14",
+      "arrival_date": "2023-06-14 12:00:00",
       "is_urgent": "Так"
     },
     {
@@ -137,7 +137,7 @@ const packagesData = {
       "receiver_name": "Павло Луценко",
       "post_office_address": "Вулиця Дніпровська, 31",
       "post_office_number": "11",
-      "arrival_date": "2023-06-16",
+      "arrival_date": "2023-06-16 12:00:00",
       "is_urgent": "Ні"
     }
   ]
